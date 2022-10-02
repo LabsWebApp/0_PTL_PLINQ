@@ -23,7 +23,7 @@ catch (AggregateException e)
 {
     Console.WriteLine("\n\n");
     Console.WriteLine($"Базовое исключение - {e.GetType()}");
-    Console.WriteLine($"Вложенные исключения:");
+    Console.WriteLine("Вложенные исключения:");
 
     foreach (var item in e.InnerExceptions)
     {

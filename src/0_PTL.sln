@@ -11,23 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ForForeach", "Parallels\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_ForForeachEx", "Parallels\04_ForForeachEx\03_ForForeachEx.csproj", "{13704C1E-AB1F-40B1-856A-8EE4CF4BDDF5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_PLIQ", "00_PLIQ", "{4D152BA5-A2CD-49D3-9445-58CACA9335FD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_PLINQ", "00_PLINQ", "{4D152BA5-A2CD-49D3-9445-58CACA9335FD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_PLinq", "00_PLIQ\PLinq\01_PLinq.csproj", "{3A532983-1A00-44E7-A8DA-5BDA2829C719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_AsOrdered", "00_PLIQ\02_AsOrdered\02_AsOrdered.csproj", "{63216C2F-072A-408D-9990-4A6E6AFF947C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_AsOrdered", "00_PLIQ\02_AsOrdered\02_AsOrdered.csproj", "{63216C2F-072A-408D-9990-4A6E6AFF947C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_AsSequential", "00_PLIQ\03_AsSequential\03_AsSequential.csproj", "{B2B086C5-7E70-4FBD-9F66-8E5815788973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_AsSequential", "00_PLIQ\03_AsSequential\03_AsSequential.csproj", "{B2B086C5-7E70-4FBD-9F66-8E5815788973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Cancellation", "00_PLIQ\04_Cancellation\04_Cancellation.csproj", "{F829F638-D154-424A-9249-D11F1EB33D49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Cancellation", "00_PLIQ\04_Cancellation\04_Cancellation.csproj", "{F829F638-D154-424A-9249-D11F1EB33D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_WithDegreeOfParallelism", "00_PLIQ\05_WithConcurrentCollections\05_WithDegreeOfParallelism.csproj", "{653CD3A9-C06D-4342-9218-CBA49747D26E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_WithDegreeOfParallelism", "00_PLIQ\05_WithConcurrentCollections\05_WithDegreeOfParallelism.csproj", "{653CD3A9-C06D-4342-9218-CBA49747D26E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_WithExecutionMode", "00_PLIQ\06_WithExecutionMode\06_WithExecutionMode.csproj", "{C1ABEE4C-6387-426D-A386-D8E68468EBC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_WithExecutionMode", "00_PLIQ\06_WithExecutionMode\06_WithExecutionMode.csproj", "{C1ABEE4C-6387-426D-A386-D8E68468EBC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Exception", "00_PLIQ\07_Exception\07_Exception.csproj", "{37139466-512C-41D7-8462-537E69C440B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Exception", "00_PLIQ\07_Exception\07_Exception.csproj", "{37139466-512C-41D7-8462-537E69C440B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqVsPLinq", "00_PLIQ\LinqVsPLinq\LinqVsPLinq.csproj", "{11F4618A-618E-4A97-9231-3F39EFE40C68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqVsPLinq", "00_PLIQ\LinqVsPLinq\LinqVsPLinq.csproj", "{11F4618A-618E-4A97-9231-3F39EFE40C68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,11 +2,11 @@
 string[] cars = { "Nissan", "Aston Martin", "Chevrolet", "Alfa Romeo", "Chrysler", "Dodge", "BMW",
     "Ferrari", "Audi", "Bentley", "Ford", "Lexus", "Mercedes", "Toyota", "Volvo", "Subaru", "Жигули :)"};
 
-IEnumerable<string> auto = cars
+var auto = cars
     .AsParallel()
     .AsOrdered()
     .Where(p => p.Contains('a'))
-    .Take(5) // берём всего 5 элементов ||-изм излишен
+    .Take(5) // берём всего 5 элементов ||-изм излишен.AsSequential()
     .AsSequential()
     .Where(p => p.Contains('o'))
     .Select(p => p);
