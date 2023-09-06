@@ -1,7 +1,7 @@
 ﻿// WithExecutionMode
 using System.Collections.Concurrent;
 
-const int total = 100;
+const int total = 1000;
 ConcurrentDictionary<int, int> dictionary = new ConcurrentDictionary<int, int>();
 
 bool WhereFilter(int number)

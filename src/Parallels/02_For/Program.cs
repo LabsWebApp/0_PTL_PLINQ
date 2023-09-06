@@ -6,25 +6,28 @@ void Square(int n)
     Thread.Sleep(1000);
 }
 
-//Parallel.For(2, 5, Square);
+Parallel.For(2, 5, Square);// [x, y)
+Console.ReadLine();
+Console.WriteLine("************");
+Thread.Sleep(1500);
 
-//Console.WriteLine("************");
-//Thread.Sleep(1500);
+ParallelLoopResult result = Parallel.ForEach<int>(
+    new List<int> { 1, 3, 5, 8 },
+    Square
+);
+Console.WriteLine($"IsCompleted - {result.IsCompleted}; LowestBreakIteration = {result.LowestBreakIteration ?? -1}\n");
 
-//ParallelLoopResult result = Parallel.ForEach<int>(
-//    new List<int> { 1, 3, 5, 8 },
-//    Square
-//);
-//Console.WriteLine($"IsCompleted - {result.IsCompleted}; LowestBreakIteration = {result.LowestBreakIteration ?? -1}\n");
+Console.WriteLine("************");
 
-//Console.WriteLine("************");
+Console.ReadLine();
+
 //break; stop;
 
-ParallelLoopResult result = Parallel.For(1, 10, (i, pls) =>
+result = Parallel.For(1, 10, (i, pls) =>
 {
     if (i == 5)
-        //pls.Break();
-        pls.Stop();
+        pls.Break();
+        //pls.Stop();
     Square(i);
 });
 Console.WriteLine($"IsCompleted - {result.IsCompleted}; LowestBreakIteration = {result.LowestBreakIteration ?? -1}\n");

@@ -2,7 +2,7 @@
 
 using System.Diagnostics;
 
-const int Tests = 100000;
+const int Tests = 1000000;
 
 long Calculate(long num) => (long)(Math.Pow(num, num * 2) + num + 15 * Math.Pow(2, num));
 
@@ -29,8 +29,8 @@ void TestPLinq()
 
 for (int i = 0; i < 5; i++)
 {
-    TestLinq();
     TestPLinq();
+    TestLinq();
     Console.WriteLine();
 }
 
